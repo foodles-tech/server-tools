@@ -160,7 +160,6 @@ class TestSlowWSGILoggerJSONRPCRequest(HttpSavepointCase):
                 "admin",
                 "fake.test",
                 "name_search",
-                None,
                 wait,
             )
 
@@ -182,7 +181,6 @@ class TestSlowWSGILoggerJSONRPCRequest(HttpSavepointCase):
                 "admin",
                 "fake.test",
                 "name_search",
-                None,
                 wait,
             )
             # log something in debug juste to avoid raising because nothing logged
